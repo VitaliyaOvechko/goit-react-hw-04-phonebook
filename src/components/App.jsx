@@ -1,7 +1,7 @@
 // import { Component } from 'react';
 import { useEffect, useState } from 'react';
 import { nanoid } from 'nanoid';
-import { ContactForm } from './Form/ContactsForm';
+import ContactForm from './Form/ContactsForm';
 import { ContactList } from './List/ContactsList';
 import { Filter } from './Filter/Filter';
 import { ContactsTitle, PhonebookTitle, Wrapper } from './App.styled';
